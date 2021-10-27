@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask App - Output data on same page after form submit</title>
+</head>
+<body>
+
+    <form method=post>
+       <h1> Disaster tweets</h1>
+
+       <!--radio buttons-->
+       <p>Choose embedding form:</p>
+        <input type="radio" id="w2v" name="emb" value="w2v" checked>Word2Vec<br>
+        <input type="radio" id="fasttext" name="emb" value="fasttext">FastText<br>
+        <input type="radio" id="bert" name="emb" value="bert">BERT<br>
+
+
+
+      <!--main part-->
+       <p>Provide disaster tweet:<br>
+          <input type="text" name="input" >
+          <br>
+       <input type="submit" value="Submit">
+    </form>
+
+   <!-- output-->
+    <div id="output" class="info"></div>
+    <h3>{{ msg }} {{ input_form }} {{embedding_form}}</h3>
+
+
+</body>
+</html>
