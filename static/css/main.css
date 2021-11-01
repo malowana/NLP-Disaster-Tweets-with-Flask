@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: SlateGrey;
+    font-size: 1.5em;
+}
+p {
+    color: white;
+    font-family: Shanti;
+    font-size: 1em;
+    display: inline-block;
+    margin:  2px;
+}
+input {
+  width: 100px;
+  margin: 1px 1px;
+  height: 30px;
+  border: none;
+  border-radius: 1px;
+  font-family: Shanti;
+  font-size: 1em;
+  text-align: center;
+}
+
+input[name="emb"] {
+  margin-left: 100px
+  font-color: white;
+  width: 100px;
+  margin: 1px 1px;
+  height: 30px;
+  border: none;
+  border-radius: 1px;
+  font-family: Shanti;
+  font-size: 1em;
+}
+
+input[name="input"] {
+  width: 500px;
+}
+
+div[name="success"] {
+    color: green;
+}
+
+div[name="fail"] {
+    color: #8b0000;
+}
