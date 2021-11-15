@@ -11,5 +11,5 @@ After that I use function simple_preprocess, which remove interpunction, convert
 In next step this string was tokenized and convert to vector, based on previously choosen embedding. <br>
 At the end we receive an output from catboost model. <br>
 <br>
-
+![This is an image](images/dt.PNG) <br><br>
 [[Watch the video how it works]](https://www.youtube.com/watch?v=wYNPKVg1rhE)
